@@ -244,6 +244,18 @@ uv run python -m streaming.consumer_case
 
 </details>
 
+## Technical Modification
+The modification for this project is not a very impactful one as this is only Project 1 for Streaming Data
+
+The modification adds the file consumer_miller.py to the src/streaming folder.
+
+In this new file, two new columns are added to the outputted file: day_of_week & used_discount
+
+day_of_week uses the Python datetime library to calculate the day of the week that specific purchase took place on.
+This can give us more insights, especially if there are purchasing patterns that differ on weekdays and weekends.
+
+used_discount is a simple boolean that lets us know if there was a discount used for that purchase.  This simplifies the discount_code column.
+
 ## Notes
 
 - Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
