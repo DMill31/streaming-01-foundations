@@ -253,7 +253,7 @@ The modification adds the file consumer_miller.py to the src/streaming folder.
 In this new file, two new columns are added to the outputted file: day_of_week & used_discount
 
 day_of_week uses the Python datetime library to calculate the day that purchase took place on.
-This can give us more insights on purhcasing patterns. 
+This can give us more insights on purhcasing patterns.
 Especially if there are patterns that differ on weekdays and weekends.
 
 used_discount is a boolean that lets us know if there was a discount used for that purchase.
