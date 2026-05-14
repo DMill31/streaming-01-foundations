@@ -245,6 +245,7 @@ uv run python -m streaming.consumer_case
 </details>
 
 ## Technical Modification
+
 The modification for this project is not a very impactful one as this is only Project 1 for Streaming Data
 
 The modification adds the file consumer_miller.py to the src/streaming folder.
