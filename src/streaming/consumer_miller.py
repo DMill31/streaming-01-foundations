@@ -1,4 +1,4 @@
-"""src/streaming/consumer_case.py - Local consumer example.
+"""src/streaming/consumer_miller.py - Local consumer
 
 Reads messages from a local simulated topic file
 and writes consumed records to a local output file one message at a time.
@@ -9,16 +9,12 @@ Work up to see how it all fits together.
 Many functions are standard helpers
 and should not need project-specific modifications.
 
-Author: Denise Case
+Author: Daniel Miller
 Date: 2026-05
 
 Terminal command to run this file from the root project folder:
 
-    uv run python -m streaming.consumer_case
-
-OBS:
-  Don't edit this file - it should remain a working example.
-  Copy it, rename it consumer_yourname.py, and modify your copy.
+    uv run python -m streaming.consumer_miller
 """
 
 # === DECLARE IMPORTS ===
